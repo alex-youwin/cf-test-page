@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="ProfileIcon" transform="translate(0 -0.136)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="16.5" cy="16.5" r="16.5" transform="translate(0 0.136)" fill="#3f3f40"/>
+    <path id="Path_1963" data-name="Path 1963" d="M12,1.5A4.2,4.2,0,1,1,7.8,5.7,4.194,4.194,0,0,1,12,1.5Z" transform="translate(4.4 4.5)" fill="#fff"/>
+    <path id="Path_1964" data-name="Path 1964" d="M12,22.5a9.864,9.864,0,0,1-8.4-5.009C3.642,14.4,9.2,12.7,12,12.7s8.358,1.7,8.4,4.791A9.864,9.864,0,0,1,12,22.5Z" transform="translate(4.4 4.5)" fill="#fff"/>
+  </g>
+</svg>
