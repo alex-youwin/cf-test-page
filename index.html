@@ -2,275 +2,284 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
 
-    <!-- css file -->
-    <!-- <link rel="stylesheet" href="./slick-theme.css"> -->
-    <!-- <link rel="stylesheet" href="./slick.css"> -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-        .slick-dots,.slick-next,.slick-prev{padding:0;display:block;position:absolute}.slick-dots li,.slick-dots li button,.slick-next,.slick-prev{cursor:pointer;width:20px;height:20px}.slick-dots li button,.slick-next,.slick-next:focus,.slick-next:hover,.slick-prev,.slick-prev:focus,.slick-prev:hover{color:transparent;background:0 0;outline:0}.slick-dots li button:before,.slick-next:before,.slick-prev:before{font-family:slick;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@font-face{font-family:slick;font-weight:400;font-style:normal;src:url('./slick.eot');src:url('./slick.eot?#iefix') format('embedded-opentype'),url('./slick.woff') format('woff'),url('./slick.ttf') format('truetype'),url('./slick.svg#slick') format('svg')}.slick-next,.slick-prev{font-size:0;line-height:0;top:50%;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);border:none}.slick-dots li button:focus:before,.slick-dots li button:hover:before,.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-size:20px;line-height:1;opacity:.75;color:#fff}.slick-prev{left:-25px}[dir=rtl] .slick-prev{right:-25px;left:auto}.slick-prev:before,[dir=rtl] .slick-next:before{content:'←'}.slick-next:before,[dir=rtl] .slick-prev:before{content:'→'}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{bottom:-25px;width:100%;margin:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;margin:0 5px;padding:0}.slick-dots li button{font-size:0;line-height:0;display:block;padding:5px;border:0}.slick-dots li button:focus,.slick-dots li button:hover{outline:0}.slick-dots li button:before{font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:'•';text-align:center;opacity:.25;color:#000}.slick-dots li.slick-active button:before{opacity:.75;color:#000}
-        .slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{top:0;left:0;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-initialized .slick-slide,.slick-slide img{display:block}.slick-arrow.slick-hidden,.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
-        .mini-slider-sec,.sub-heading-content,section.content-sec{background-color:#52535B}.banner-container,.banner-slide,.btn-all,.btn-multi,.btn-multi span,.content-main,section.slider-sec{position:relative}.wrapper-2,body{overflow-x:hidden}.banner-slider ul.slick-dots,.btn-all a.btn-bog,.content-sec .slick-dots li button:before{display:none}.btn-all a.btn-bog,.content-sec .slick-dots li.slick-active button{background-color:#00ca6b}.btn-all a.btn-bog,.btn-multi span{font-family:'Baloo 2';text-decoration:none}img.phone-blue,img.phone-pink{bottom:auto;position:absolute}*{margin:0;padding:0;box-sizing:border-box}body,p{font-family:Inter,sans-serif}h1,h2,h3,h4,h5,h6{font-family:"Baloo 2",sans-serif}.container{max-width:1652px;width:90%;margin:auto}.site-header{padding:9px 20px 11px}.banner-slider-text,.price-ret-slider{padding:20px 0 60px;border-radius:4px 4px 0 0}.site-header .main-header{display:flex;align-items:center;justify-content:space-between}.site-header .usericon img{display:flex}.site-header .site-logo h2{color:#fff}.site-header .site-logo span{color:#c00}.banner-container{max-width:530px;min-height:350px;margin:-350px auto auto}.banner-slider .banner-image{width:100%;height:auto;display:flex;object-fit:cover}.banner-slide .carector{position:absolute;height:98%;bottom:0;left:50%;transform:translate(-50%,0)}.banner-slider{max-width:1652px;margin:0 auto}.price-ret-slider h1,.price-ret-sliders h1.price{color:#fff;font-size:50px;line-height:50px;text-align:center;text-shadow:0 3px 6px #00ca6b}.price-ret-slider h4,.price-ret-sliders h4.price-text{color:#fff;font-size:24px;line-height:29px;text-align:center;text-shadow:0 3px 6px #00ca6b}.price-ret-slider{position:absolute;bottom:0;left:0;right:0;background-color:rgb(0 0 0 / 50%);max-width:530px;margin:0 auto}.banner-slider-text{max-width:530px;margin:-185px auto 0;background:#000;background-color:rgb(0 0 0 / 50%)}.content-main{box-shadow:0 3px 6px #00000029;max-width:530px;margin:auto auto -35px;top:-35px}.wrapper-2{width:100%;display:block}.mini-slider .min-slider-content p{max-width:158px;font-size:11px;line-height:14px;color:#fff}.mini-slider-box .slick-list{overflow:VISIBLE!important}.mini-slider-box{max-width:500px;margin:0 auto auto}.mini-slider-sec{padding-top:0}.mini-slider-box.slick-dotted.slick-slider{margin-bottom:0!important}.mini-slider .border{display:flex!important;flex-wrap:wrap;max-width:330px;margin:30px auto;position:relative;background:#52535B;z-index:11}.mini-slider .border::before{position:absolute;content:"";top:-15px;bottom:-10px;width:360px;left:-17px;right:0;border:1px solid #00ca6b;border-radius:4px;z-index:-1;height:120px;box-shadow:0 3px 6px #00000029}.mini-slider .min-slider-content,.mini-slider .mini-slider-img{width:50%}.mini-slider .mini-slider-img img{width:100%;height:auto;object-fit:cover;object-position:center center;margin-top:-30px;margin-left:auto;margin-right:0}.mini-slider h2.title{font-size:16px;line-height:17px;font-weight:800;color:#00ca6b;margin-bottom:8px}.content-sec .slick-dots li{height:2px;border-radius:101px;margin:0 3px}.content-sec .slick-dots li button{background-color:#fff;height:0;border-radius:101px;margin:0 3px;padding:1px}.text-contnet .main-text-box h5 img,.text-contnet1 .main-text-box1 h5 img{height:19px;width:24px;margin-left:10px}.content-sec img{height:auto;width:100%;margin-top:-12px}.sub-heading-content{text-align:center}.sub-heading-content h2{font-size:27px;line-height:27px;color:#fff;margin-bottom:25px;padding-top:20px}.sub-heading-content h2 span{color:#00ca6b}.sub-heading-content .mini-logo{display:flex;width:332px;max-width:100%;margin:auto;justify-content:space-between;padding:14px 27px;background-color:#5C5D64;border-radius:4px;align-items:center}.sub-heading-content .minilogo-box img{width:57px;display:flex;margin-top:0}.btn-all{text-align:center;margin-top:25px;z-index:0}.btn-all a.btn-bog{width:301px;display:block;margin:auto;padding:9px;font-size:13px;line-height:16px;color:#fff;border-radius:4px}.btn-all a.btn-bog span{font-size:24px;line-height:30px;font-weight:700;display:block}.btn-multi{padding:45px 0 16px;background-color:#5C5D64;margin-top:-30px;z-index:-1}.btn-multi span{font-size:16px;line-height:12px;font-weight:700;color:#fff;padding:0 17px}.text-contnet .main-text-box h5,.text-contnet p,.text-contnet1 .main-text-box1 h5{font-family:Inter,sans-serif;font-size:11px;line-height:12px;color:#fff}.btn-multi span:not(:last-child)::after{content:'';position:absolute;margin:0 auto;width:8px;height:8px;border-top:3px solid #fff;border-left:3px solid #fff;transform:rotate(45deg);right:-5px;top:50%;border-radius:3px;transform-origin:center;transform:translateY(-50%) rotate(133deg)}.text-contnet .main-text-box,.text-contnet1 .main-text-box1{max-width:530px;margin:auto;text-align:center}.text-contnet .main-text-box h5{display:flex;align-items:center;justify-content:center;padding-bottom:13px}.text-contnet{padding:22px 0}.text-contnet p{font-weight:400}.text-contnet img.logotext-box{width:98px;height:auto;padding:9px 0}.text-contnet p.copy-text{max-width:268px;margin:auto}.text-contnet .logowith-text{display:flex;align-items:center;text-align:justify;max-width:450px;margin:auto;padding-top:16px;font-size:10px}.text-contnet .logowith-text img{margin-right:20px}.text-contnet1{padding:22px 0 0}.text-contnet1 .main-text-box1 h5{display:flex;align-items:center;justify-content:center}.text-contnet1 .main-text-box1 h5 img{margin-top:0}img.phone-pink{width:100%;max-width:150px;top:-65px;left:-95px;animation:3s ease-in-out infinite float}img.bell,img.phone-blue{animation:3s ease-in-out infinite floatopp}img.phone-blue{max-width:170px;top:-50px;right:-140px}img.bell,img.heart-blue{width:100%;position:absolute;top:auto}img.bell{max-width:220px;left:-164px;bottom:-100px}img.heart-blue{max-width:100px;bottom:-30px;right:-100px;animation:3s ease-in-out infinite float}@keyframes float{0%,100%{transform:translatey(0)}50%{transform:translatey(-10px)}}@keyframes floatLeftRight{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}}@keyframes floatopp{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}.banner-slider .slick-dots{bottom:37px}.banner-slider .slick-dots li{z-index:99;width:11px;height:18px}.banner-slider .slick-dots li button{background:#fff;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li.slick-active button{background:#00ca6b;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li button:before{font-size:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:120px}@media(max-width:1500px){.content-main{margin:auto auto -40px;top:-40px}.banner-slider .slick-dots{bottom:30px}}@media(max-width:1400px){.price-ret-slider{padding:20px 0 50px}}@media(max-width:1366px){.content-main{margin:auto auto -40px;top:-40px}img.phone-pink{top:-25px;max-width:130px;left:-45px}img.phone-blue{max-width:150px;right:-110px;top:-10px}.banner-slider-text{margin-top:-164px}.banner-slider .slick-dots{bottom:10px}}@media(max-width:1200px){.content-main{margin:auto auto -10px;top:-10px}.banner-slider .slick-dots{bottom:5px}img.phone-pink{top:-10px;max-width:130px}.price-ret-slider{padding:20px 0}.banner-slider-text{margin-top:-159px;padding:20px 0 30px}}@media(max-width:1120px){.content-main{margin:auto auto -10px;top:-10px}img.phone-pink{top:30px;max-width:110px}img.bell{max-width:200px}img.phone-blue{max-width:130px;right:-100px;top:20px}}@media(max-width:1025px){.content-main{margin:auto auto -30px;top:-30px}}@media(max-width:991px){.content-main{margin:auto auto -30px;top:-30px}img.phone-pink{top:95px;max-width:110px}img.phone-blue{max-width:110px;right:-75px;top:80px}}@media(max-width:767px){.content-main{margin:auto auto 0;top:0;box-shadow:none}.banner-slider,.banner-slider-text{margin-bottom:0!important}.banner-slider .banner-image{height:343px}.btn-all{text-align:center;margin-top:25px;position:fixed;width:100%;bottom:0;left:0;z-index:1000;transition:3s}.btn-all.sticky-stop{position:relative;bottom:auto;top:0}.text-contnet{padding:22px 0}.text-contnet .main-text-box{padding:0 20px}.banner-slider .slick-dots li{z-index:99;width:11px;height:18px}.banner-slider .slick-dots li button{background:#fff;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li.slick-active button{background:#00ca6b;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li button:before{font-size:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:120px}img.heart-blue{right:-60px}.banner-slider-text{margin-top:-129px}}@media(max-width:650px){.content-main{max-width:100%}.banner-slider-text,.price-ret-slider{max-width:580px;border-radius:0}img.phone-pink{top:30px;max-width:110px;left:5px}img.phone-blue{max-width:130px;right:12px;top:5px}img.bell{max-width:150px;left:-30px;top:auto;bottom:-35px}img.heart-blue{right:0}.price-ret-sliders h4.price-text{font-size:20px}}@media(max-width:550px){.container{width:100%}.price-ret{border-radius:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:80px}}@media(max-width:425px){.banner-slider-text{margin-top:-120px}.price-ret-sliders h1.price{font-size:40px}.price-ret-sliders h4.price-text{font-size:16px;line-height:20px;text-shadow:0 2px 6px #00ca6b}}@media(max-width:380px){.mini-slider .border::before{width:347px;left:-9px}.mini-slider.slick-slide{margin:0 20px}}
-        .banner-container, .banner-slide, .price-ret-sliders { display: block; text-decoration: none;}
-        .btn-all.desktop { margin-top: 40px; }
-        @media screen and (max-width: 767px) { .btn-all.desktop {display: none} }
-        @media screen and (min-width: 768px) {
-            .btn-all.mobile {display: none}
-            .text-contnet1 .main-text-box1 { margin-bottom: 20px;}
-        }
-        .text-contnet.footer { background: #2D2A2B; }
-        .site-header {background: #2D2A2B;}
-        body {background: #2D2A2B;}
-        .slider-sec {background: #52535B;}
-    </style>
+  <!-- css file -->
+  <!-- <link rel="stylesheet" href="./slick-theme.css"> -->
+  <!-- <link rel="stylesheet" href="./slick.css"> -->
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+      .slick-dots,.slick-next,.slick-prev{padding:0;display:block;position:absolute}.slick-dots li,.slick-dots li button,.slick-next,.slick-prev{cursor:pointer;width:20px;height:20px}.slick-dots li button,.slick-next,.slick-next:focus,.slick-next:hover,.slick-prev,.slick-prev:focus,.slick-prev:hover{color:transparent;background:0 0;outline:0}.slick-dots li button:before,.slick-next:before,.slick-prev:before{font-family:slick;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@font-face{font-family:slick;font-weight:400;font-style:normal;src:url('./slick.eot');src:url('./slick.eot?#iefix') format('embedded-opentype'),url('./slick.woff') format('woff'),url('./slick.ttf') format('truetype'),url('./slick.svg#slick') format('svg')}.slick-next,.slick-prev{font-size:0;line-height:0;top:50%;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);border:none}.slick-dots li button:focus:before,.slick-dots li button:hover:before,.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-size:20px;line-height:1;opacity:.75;color:#fff}.slick-prev{left:-25px}[dir=rtl] .slick-prev{right:-25px;left:auto}.slick-prev:before,[dir=rtl] .slick-next:before{content:'←'}.slick-next:before,[dir=rtl] .slick-prev:before{content:'→'}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{bottom:-25px;width:100%;margin:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;margin:0 5px;padding:0}.slick-dots li button{font-size:0;line-height:0;display:block;padding:5px;border:0}.slick-dots li button:focus,.slick-dots li button:hover{outline:0}.slick-dots li button:before{font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:'•';text-align:center;opacity:.25;color:#000}.slick-dots li.slick-active button:before{opacity:.75;color:#000}
+      .slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{top:0;left:0;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-initialized .slick-slide,.slick-slide img{display:block}.slick-arrow.slick-hidden,.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+      .mini-slider-sec,.sub-heading-content,section.content-sec{background-color:#52535B}.banner-container,.banner-slide,.btn-all,.btn-multi,.btn-multi span,.content-main,section.slider-sec{position:relative}.wrapper-2,body{overflow-x:hidden}.banner-slider ul.slick-dots,.btn-all a.btn-bog,.content-sec .slick-dots li button:before{display:none}.btn-all a.btn-bog,.content-sec .slick-dots li.slick-active button{background-color:#00ca6b}.btn-all a.btn-bog,.btn-multi span{font-family:'Baloo 2';text-decoration:none}img.phone-blue,img.phone-pink{bottom:auto;position:absolute}*{margin:0;padding:0;box-sizing:border-box}body,p{font-family:Inter,sans-serif}h1,h2,h3,h4,h5,h6{font-family:"Baloo 2",sans-serif}.container{max-width:1652px;width:90%;margin:auto}.site-header{padding:9px 20px 11px}.banner-slider-text,.price-ret-slider{padding:20px 0 60px;border-radius:4px 4px 0 0}.site-header .main-header{display:flex;align-items:center;justify-content:space-between}.site-header .usericon img{display:flex}.site-header .site-logo h2{color:#fff}.site-header .site-logo span{color:#c00}.banner-container{max-width:530px;min-height:350px;margin:-350px auto auto}.banner-slider .banner-image{width:100%;height:auto;display:flex;object-fit:cover}.banner-slide .carector{position:absolute;height:98%;bottom:0;left:50%;transform:translate(-50%,0)}.banner-slider{max-width:1652px;margin:0 auto}.price-ret-slider h1,.price-ret-sliders h1.price{color:#fff;font-size:50px;line-height:50px;text-align:center;text-shadow:0 3px 6px #00ca6b}.price-ret-slider h4,.price-ret-sliders h4.price-text{color:#fff;font-size:24px;line-height:29px;text-align:center;text-shadow:0 3px 6px #00ca6b}.price-ret-slider{position:absolute;bottom:0;left:0;right:0;background-color:rgb(0 0 0 / 50%);max-width:530px;margin:0 auto}.banner-slider-text{max-width:530px;margin:-185px auto 0;background:#000;background-color:rgb(0 0 0 / 50%)}.content-main{box-shadow:0 3px 6px #00000029;max-width:530px;margin:auto auto -35px;top:-35px}.wrapper-2{width:100%;display:block}.mini-slider .min-slider-content p{max-width:158px;font-size:11px;line-height:14px;color:#fff}.mini-slider-box .slick-list{overflow:VISIBLE!important}.mini-slider-box{max-width:500px;margin:0 auto auto}.mini-slider-sec{padding-top:0}.mini-slider-box.slick-dotted.slick-slider{margin-bottom:0!important}.mini-slider .border{display:flex!important;flex-wrap:wrap;max-width:330px;margin:30px auto;position:relative;background:#52535B;z-index:11}.mini-slider .border::before{position:absolute;content:"";top:-15px;bottom:-10px;width:360px;left:-17px;right:0;border:1px solid #00ca6b;border-radius:4px;z-index:-1;height:120px;box-shadow:0 3px 6px #00000029}.mini-slider .min-slider-content,.mini-slider .mini-slider-img{width:50%}.mini-slider .mini-slider-img img{width:100%;height:auto;object-fit:cover;object-position:center center;margin-top:-30px;margin-left:auto;margin-right:0}.mini-slider h2.title{font-size:16px;line-height:17px;font-weight:800;color:#00ca6b;margin-bottom:8px}.content-sec .slick-dots li{height:2px;border-radius:101px;margin:0 3px}.content-sec .slick-dots li button{background-color:#fff;height:0;border-radius:101px;margin:0 3px;padding:1px}.text-contnet .main-text-box h5 img,.text-contnet1 .main-text-box1 h5 img{height:19px;width:24px;margin-left:10px}.content-sec img{height:auto;width:100%;margin-top:-12px}.sub-heading-content{text-align:center}.sub-heading-content h2{font-size:27px;line-height:27px;color:#fff;margin-bottom:25px;padding-top:20px}.sub-heading-content h2 span{color:#00ca6b}.sub-heading-content .mini-logo{display:flex;width:332px;max-width:100%;margin:auto;justify-content:space-between;padding:14px 27px;background-color:#5C5D64;border-radius:4px;align-items:center}.sub-heading-content .minilogo-box img{width:57px;display:flex;margin-top:0}.btn-all{text-align:center;margin-top:25px;z-index:0}.btn-all a.btn-bog{width:301px;display:block;margin:auto;padding:9px;font-size:13px;line-height:16px;color:#fff;border-radius:4px}.btn-all a.btn-bog span{font-size:24px;line-height:30px;font-weight:700;display:block}.btn-multi{padding:45px 0 16px;background-color:#5C5D64;margin-top:-30px;z-index:-1}.btn-multi span{font-size:16px;line-height:12px;font-weight:700;color:#fff;padding:0 17px}.text-contnet .main-text-box h5,.text-contnet p,.text-contnet1 .main-text-box1 h5{font-family:Inter,sans-serif;font-size:11px;line-height:12px;color:#fff}.btn-multi span:not(:last-child)::after{content:'';position:absolute;margin:0 auto;width:8px;height:8px;border-top:3px solid #fff;border-left:3px solid #fff;transform:rotate(45deg);right:-5px;top:50%;border-radius:3px;transform-origin:center;transform:translateY(-50%) rotate(133deg)}.text-contnet .main-text-box,.text-contnet1 .main-text-box1{max-width:530px;margin:auto;text-align:center}.text-contnet .main-text-box h5{display:flex;align-items:center;justify-content:center;padding-bottom:13px}.text-contnet{padding:22px 0}.text-contnet p{font-weight:400}.text-contnet img.logotext-box{width:98px;height:auto;padding:9px 0}.text-contnet p.copy-text{max-width:268px;margin:auto}.text-contnet .logowith-text{display:flex;align-items:center;text-align:justify;max-width:450px;margin:auto;padding-top:16px;font-size:10px}.text-contnet .logowith-text img{margin-right:20px}.text-contnet1{padding:22px 0 0}.text-contnet1 .main-text-box1 h5{display:flex;align-items:center;justify-content:center}.text-contnet1 .main-text-box1 h5 img{margin-top:0}img.phone-pink{width:100%;max-width:150px;top:-65px;left:-95px;animation:3s ease-in-out infinite float}img.bell,img.phone-blue{animation:3s ease-in-out infinite floatopp}img.phone-blue{max-width:170px;top:-50px;right:-140px}img.bell,img.heart-blue{width:100%;position:absolute;top:auto}img.bell{max-width:220px;left:-164px;bottom:-100px}img.heart-blue{max-width:100px;bottom:-30px;right:-100px;animation:3s ease-in-out infinite float}@keyframes float{0%,100%{transform:translatey(0)}50%{transform:translatey(-10px)}}@keyframes floatLeftRight{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}}@keyframes floatopp{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}.banner-slider .slick-dots{bottom:37px}.banner-slider .slick-dots li{z-index:99;width:11px;height:18px}.banner-slider .slick-dots li button{background:#fff;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li.slick-active button{background:#00ca6b;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li button:before{font-size:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:120px}@media(max-width:1500px){.content-main{margin:auto auto -40px;top:-40px}.banner-slider .slick-dots{bottom:30px}}@media(max-width:1400px){.price-ret-slider{padding:20px 0 50px}}@media(max-width:1366px){.content-main{margin:auto auto -40px;top:-40px}img.phone-pink{top:-25px;max-width:130px;left:-45px}img.phone-blue{max-width:150px;right:-110px;top:-10px}.banner-slider-text{margin-top:-164px}.banner-slider .slick-dots{bottom:10px}}@media(max-width:1200px){.content-main{margin:auto auto -10px;top:-10px}.banner-slider .slick-dots{bottom:5px}img.phone-pink{top:-10px;max-width:130px}.price-ret-slider{padding:20px 0}.banner-slider-text{margin-top:-159px;padding:20px 0 30px}}@media(max-width:1120px){.content-main{margin:auto auto -10px;top:-10px}img.phone-pink{top:30px;max-width:110px}img.bell{max-width:200px}img.phone-blue{max-width:130px;right:-100px;top:20px}}@media(max-width:1025px){.content-main{margin:auto auto -30px;top:-30px}}@media(max-width:991px){.content-main{margin:auto auto -30px;top:-30px}img.phone-pink{top:95px;max-width:110px}img.phone-blue{max-width:110px;right:-75px;top:80px}}@media(max-width:767px){.content-main{margin:auto auto 0;top:0;box-shadow:none}.banner-slider,.banner-slider-text{margin-bottom:0!important}.banner-slider .banner-image{height:343px}.btn-all{text-align:center;margin-top:25px;position:fixed;width:100%;bottom:0;left:0;z-index:1000;transition:3s}.btn-all.sticky-stop{position:relative;bottom:auto;top:0}.text-contnet{padding:22px 0}.text-contnet .main-text-box{padding:0 20px}.banner-slider .slick-dots li{z-index:99;width:11px;height:18px}.banner-slider .slick-dots li button{background:#fff;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li.slick-active button{background:#00ca6b;border-radius:14px;width:8px;height:8px;line-height:8px;border:1px solid #fff}.banner-slider .slick-dots li button:before{font-size:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:120px}img.heart-blue{right:-60px}.banner-slider-text{margin-top:-129px}}@media(max-width:650px){.content-main{max-width:100%}.banner-slider-text,.price-ret-slider{max-width:580px;border-radius:0}img.phone-pink{top:30px;max-width:110px;left:5px}img.phone-blue{max-width:130px;right:12px;top:5px}img.bell{max-width:150px;left:-30px;top:auto;bottom:-35px}img.heart-blue{right:0}.price-ret-sliders h4.price-text{font-size:20px}}@media(max-width:550px){.container{width:100%}.price-ret{border-radius:0}.content-sec .slick-dots{bottom:15px;text-align:right;right:80px}}@media(max-width:425px){.banner-slider-text{margin-top:-120px}.price-ret-sliders h1.price{font-size:40px}.price-ret-sliders h4.price-text{font-size:16px;line-height:20px;text-shadow:0 2px 6px #00ca6b}}@media(max-width:380px){.mini-slider .border::before{width:347px;left:-9px}.mini-slider.slick-slide{margin:0 20px}}
+      .banner-container, .banner-slide, .price-ret-sliders { display: block; text-decoration: none;}
+      .btn-all.desktop { margin-top: 40px; }
+      @media screen and (max-width: 767px) { .btn-all.desktop {display: none} }
+      @media screen and (min-width: 768px) {
+          .btn-all.mobile {display: none}
+          .text-contnet1 .main-text-box1 { margin-bottom: 20px;}
+      }
+      .text-contnet.footer { background: #2D2A2B; }
+      .site-header {background: #2D2A2B;}
+      body {background: #2D2A2B;}
+      .slider-sec {background: #52535B;}
+  </style>
 
-    <title>Youwin</title>
-    <script>
-        function addUrl() {
-            var allLinks = document.getElementsByTagName("a");
-            for (var i = 0; i < allLinks.length; i++) {
-                allLinks[i].href = allLinks[i].href + window.location.search
-            }
-        }
+  <title>Youwin</title>
+  <script>
+    function addUrl() {
+      var allLinks = document.getElementsByTagName("a");
+      for (var i = 0; i < allLinks.length; i++) {
+        allLinks[i].href = allLinks[i].href + window.location.search
+      }
+    }
 
-        window.addEventListener("DOMContentLoaded", function () {
-            addUrl();
-        }, false);
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./custom.js"></script>
+    window.addEventListener("DOMContentLoaded", function () {
+      addUrl();
+    }, false);
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./custom.js"></script>
+  <script>
+    fetch('/api')
+      .then(response => response.json())
+      .then(data => {
+        document.querySelectorAll('[data-dynamic="true"]').forEach(link => {
+          link.href = data.domain + link.getAttribute('href');
+        });
+      });
+  </script>
 </head>
 
 <body>
 
-    <!-- header start -->
+<!-- header start -->
 
-    <header class="site-header">
-        <div class="container">
-            <div class="main-header">
-                <a href="https://in.htrk924.com/" class="site-logo">
-                    <svg data-test-id="youwin-logo" role="img" aria-label="YouWin Logo" width="90" height="24" fill="currentColor" stroke="none" opacity="1" viewBox="0 -3 91 20" class=" svelte-w0i4su" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>YouWin Logo</title>
-                        <path d="M0.0412694 0.688078C-0.0244335 0.525691 -0.0107454 0.38257 0.0823338 0.25321C0.175413 0.123851 0.317769 0.0605469 0.503928 0.0605469H3.42497C3.61387 0.0605469 3.79181 0.121098 3.95881 0.242201C4.1258 0.363303 4.24352 0.506424 4.31196 0.66606L5.25644 3.27802C5.27013 3.30554 5.2756 3.32206 5.2756 3.32756C5.2756 3.33307 5.28382 3.34958 5.2975 3.37711L7.43285 8.96434L10.4552 0.668812C10.5209 0.506424 10.6386 0.366056 10.8083 0.244953C10.9753 0.12385 11.1533 0.0632992 11.3422 0.0632992H14.0223C14.2085 0.0632992 14.3508 0.126603 14.4439 0.255962C14.537 0.385322 14.5507 0.528443 14.485 0.690831L9.04805 15.369C8.79345 15.9085 8.54432 16.4232 8.30341 16.9076C8.0625 17.3947 7.74768 17.8213 7.35893 18.1929C6.97019 18.5645 6.46921 18.8535 5.85872 19.0626C5.24823 19.2718 4.4461 19.3709 3.45235 19.3571H2.46407C2.27517 19.3571 2.11912 19.2993 1.99046 19.1865C1.86179 19.0709 1.79882 18.925 1.79882 18.7516V16.5443C1.79882 16.3681 1.86179 16.2222 1.99046 16.1094C2.11912 15.9938 2.27517 15.936 2.46407 15.936H3.02802C3.38938 15.936 3.69326 15.903 3.93417 15.8369C4.17508 15.7681 4.37493 15.6773 4.52823 15.5644C4.68154 15.4488 4.80747 15.314 4.90055 15.1598C4.99363 15.0057 5.08123 14.8268 5.16336 14.6231L5.30572 13.913L0.0631704 0.729363L0.044007 0.688078H0.0412694Z" fill="#CC1517"></path>
-                        <path d="M14.4082 7.16708C14.4082 6.03312 14.5533 5.02301 14.8407 4.13952C15.1282 3.25602 15.5936 2.51289 16.2287 1.91288C16.8666 1.31287 17.6851 0.858738 18.6844 0.547724C19.6836 0.236711 20.9018 0.0825806 22.3391 0.0825806C23.7763 0.0825806 24.9782 0.236711 25.9856 0.547724C26.9931 0.858738 27.8143 1.31287 28.4522 1.91288C29.0901 2.51289 29.5527 3.25602 29.8402 4.13952C30.1304 5.02301 30.2727 6.03312 30.2727 7.16708C30.2727 8.30104 30.1276 9.32766 29.8402 10.2139C29.55 11.0974 29.0873 11.8405 28.4522 12.4433C27.8116 13.0433 26.9903 13.5002 25.9856 13.8085C24.9782 14.1195 23.7627 14.2763 22.3391 14.2763C20.9155 14.2763 19.6836 14.1195 18.6844 13.8085C17.6851 13.5002 16.8639 13.0433 16.2287 12.4433C15.5909 11.8433 15.1282 11.1002 14.8407 10.2139C14.5506 9.33041 14.4082 8.3148 14.4082 7.16708ZM26.0486 7.26616C26.0486 6.68542 25.9911 6.15697 25.8788 5.67807C25.7639 5.19916 25.5668 4.79182 25.2848 4.45328C25.0028 4.11475 24.6223 3.85327 24.1487 3.66336C23.6723 3.47345 23.0728 3.37987 22.3446 3.37987C21.6164 3.37987 21.0196 3.47345 20.5432 3.66336C20.0669 3.85327 19.6891 4.11475 19.4071 4.45328C19.1251 4.79182 18.9308 5.19916 18.8213 5.67807C18.7145 6.15697 18.6597 6.68542 18.6597 7.26616C18.6597 7.84691 18.7145 8.37811 18.8213 8.85701C18.928 9.33592 19.1224 9.74876 19.4071 10.0928C19.6891 10.4368 20.0669 10.7066 20.5432 10.902C21.0196 11.0974 21.6218 11.1965 22.3446 11.1965C23.0673 11.1965 23.6723 11.0974 24.1487 10.902C24.625 10.7066 25.0055 10.4368 25.2848 10.0928C25.5668 9.74876 25.7639 9.33592 25.8788 8.85701C25.9911 8.37811 26.0486 7.84691 26.0486 7.26616Z" fill="#CC1517"></path>
-                        <path d="M44.4373 0.26424C44.566 0.385343 44.6289 0.528464 44.6289 0.690851V7.39278C44.6289 8.59555 44.5359 9.62767 44.347 10.4919C44.1581 11.3561 43.8186 12.0607 43.3286 12.6084C42.8385 13.1562 42.1651 13.558 41.3055 13.814C40.4458 14.0727 39.3535 14.1993 38.023 14.1993C36.6926 14.1993 35.5975 14.0727 34.7297 13.814C33.8619 13.558 33.1829 13.1562 32.6847 12.6084C32.1892 12.0635 31.8415 11.3616 31.6471 10.5057C31.4527 9.64694 31.3569 8.61756 31.3569 7.41755V0.688099C31.3569 0.525712 31.4199 0.38259 31.5486 0.261488C31.6745 0.140385 31.8333 0.079834 32.0222 0.079834H34.56C34.7488 0.079834 34.9076 0.140385 35.0445 0.261488C35.1787 0.38259 35.2471 0.525712 35.2471 0.688099V3.13767C35.2471 3.13767 35.2389 3.1652 35.2279 3.17896V7.49186C35.2279 7.97627 35.2444 8.42765 35.2772 8.83775C35.3101 9.2506 35.4196 9.60015 35.6002 9.88914C35.7809 10.1809 36.0629 10.4066 36.4462 10.569C36.8294 10.7314 37.3605 10.8112 38.0477 10.8112C38.7348 10.8112 39.2604 10.7314 39.6382 10.569C40.0133 10.4066 40.2925 10.1781 40.4732 9.88088C40.6539 9.58363 40.7607 9.23133 40.7963 8.81848C40.8291 8.40839 40.8455 7.95976 40.8455 7.47259V0.688099C40.8455 0.525712 40.9085 0.38259 41.0372 0.261488C41.1631 0.140385 41.3219 0.079834 41.5108 0.079834H43.9692C44.1553 0.079834 44.3141 0.140385 44.4428 0.261488" fill="#CC1517"></path>
-                        <path d="M70.0008 0.21195C70.0939 0.34131 70.1075 0.484431 70.0418 0.646819L65.5713 13.4837C65.4645 13.7672 65.3167 13.9543 65.1305 14.0397C64.9417 14.1277 64.7747 14.1718 64.6268 14.1718H61.829C61.6538 14.1718 61.4621 14.1277 61.2541 14.0397C61.046 13.9516 60.89 13.7672 60.7805 13.4837L57.8211 5.77166L55.0205 13.4837C54.9137 13.7672 54.7686 13.9543 54.588 14.0397C54.4073 14.1277 54.2348 14.1718 54.0733 14.1718H51.2946C51.1194 14.1718 50.9278 14.1277 50.7197 14.0397C50.5116 13.9516 50.3529 13.7672 50.2461 13.4837L45.4744 0.688104H45.4963L45.4744 0.646819C45.406 0.484431 45.4197 0.34131 45.5155 0.21195C45.6086 0.0825907 45.7509 0.0192871 45.9398 0.0192871H48.839C49.0251 0.0192871 49.2085 0.0798384 49.381 0.200941C49.5562 0.322044 49.6767 0.465165 49.7424 0.627552L50.6896 3.11566C50.7033 3.14318 50.7088 3.17621 50.7088 3.2175L52.6607 9.11024L55.6611 0.627552C55.7268 0.465165 55.8473 0.322044 56.0225 0.200941C56.1977 0.0798384 56.3784 0.0192871 56.5673 0.0192871H59.1844C59.3706 0.0192871 59.5513 0.0798384 59.7183 0.200941C59.8853 0.322044 60.003 0.465165 60.0714 0.627552L61.0378 3.11566C61.0378 3.14318 61.0405 3.1597 61.0488 3.16795C61.0542 3.17346 61.0597 3.19272 61.0597 3.2175L63.195 9.11024L66.0148 0.627552C66.0805 0.465165 66.1982 0.322044 66.368 0.200941C66.5349 0.0798384 66.7129 0.0192871 66.9018 0.0192871H69.5819C69.7681 0.0192871 69.9104 0.0825907 70.0035 0.21195" fill="#fff"></path>
-                        <path d="M75.4817 13.6268C75.4817 13.7892 75.4188 13.9295 75.2901 14.0506C75.1642 14.1745 75.0054 14.235 74.8192 14.235H71.9776C71.7887 14.235 71.6272 14.1745 71.4957 14.0506C71.3616 13.9295 71.2959 13.7892 71.2959 13.6268V0.668806C71.2959 0.506419 71.3616 0.36605 71.4957 0.244947C71.6299 0.123845 71.7914 0.0632935 71.9776 0.0632935H74.8192C75.0054 0.0632935 75.1642 0.123845 75.2901 0.244947C75.4188 0.36605 75.4817 0.509171 75.4817 0.668806V13.6268Z" fill="#fff"></path>
-                        <path d="M85.381 0C86.4268 0 87.2727 0.137617 87.9188 0.415602C88.5649 0.693587 89.0631 1.08442 89.419 1.59085C89.7749 2.09728 90.0158 2.70829 90.1418 3.4239C90.2704 4.13951 90.3334 4.92942 90.3334 5.79366V13.6708C90.3334 13.8332 90.2704 13.9736 90.1418 14.0947C90.0158 14.2158 89.857 14.2763 89.6709 14.2763H87.1933C87.0044 14.2763 86.8484 14.2158 86.7197 14.0947C86.5911 13.9708 86.5281 13.8305 86.5281 13.6708V6.56431C86.5281 6.14596 86.5035 5.75512 86.4569 5.38906C86.4104 5.02576 86.3036 4.71474 86.1339 4.45878C85.9642 4.20281 85.715 3.99914 85.3783 3.85326C85.0416 3.70464 84.5844 3.63032 84.0095 3.63032C83.3388 3.63032 82.7995 3.70464 82.397 3.85326C81.9946 4.00189 81.6825 4.21382 81.4608 4.4918C81.239 4.76704 81.0912 5.09456 81.0173 5.47439C80.9434 5.85421 80.9078 6.27256 80.9078 6.72945V13.6736C80.9078 13.836 80.8448 13.9763 80.7161 14.0974C80.5875 14.2185 80.4314 14.2791 80.2425 14.2791H77.7458C77.5569 14.2791 77.4009 14.2185 77.2722 14.0974C77.1463 13.9736 77.0806 13.8332 77.0806 13.6736V0.547714C77.1079 0.399088 77.1846 0.275233 77.3133 0.173397C77.4392 0.0715606 77.5843 0.0220186 77.7458 0.0220186H80.2425C80.4314 0.0220186 80.5875 0.0798176 80.7161 0.195415C80.8448 0.311013 80.9078 0.454135 80.9078 0.630284V1.48075C81.083 1.27708 81.2418 1.08442 81.3896 0.902764C81.5374 0.721111 81.7564 0.564228 82.0439 0.437621C82.3341 0.308261 82.731 0.203672 83.243 0.123855C83.7522 0.0440373 84.4639 0.00275233 85.3783 0.00275233" fill="#fff"></path>
-                    </svg>
-                </a>
-                <a href="https://in.htrk924.com/tr/login" class="usericon">
-                    <img src="./ProfileIcon.svg" alt="">
-                </a>
-            </div>
+<header class="site-header">
+  <div class="container">
+    <div class="main-header">
+      <a data-dynamic="true" href="/" class="site-logo">
+        <svg data-test-id="youwin-logo" role="img" aria-label="YouWin Logo" width="90" height="24" fill="currentColor" stroke="none" opacity="1" viewBox="0 -3 91 20" class=" svelte-w0i4su" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>YouWin Logo</title>
+          <path d="M0.0412694 0.688078C-0.0244335 0.525691 -0.0107454 0.38257 0.0823338 0.25321C0.175413 0.123851 0.317769 0.0605469 0.503928 0.0605469H3.42497C3.61387 0.0605469 3.79181 0.121098 3.95881 0.242201C4.1258 0.363303 4.24352 0.506424 4.31196 0.66606L5.25644 3.27802C5.27013 3.30554 5.2756 3.32206 5.2756 3.32756C5.2756 3.33307 5.28382 3.34958 5.2975 3.37711L7.43285 8.96434L10.4552 0.668812C10.5209 0.506424 10.6386 0.366056 10.8083 0.244953C10.9753 0.12385 11.1533 0.0632992 11.3422 0.0632992H14.0223C14.2085 0.0632992 14.3508 0.126603 14.4439 0.255962C14.537 0.385322 14.5507 0.528443 14.485 0.690831L9.04805 15.369C8.79345 15.9085 8.54432 16.4232 8.30341 16.9076C8.0625 17.3947 7.74768 17.8213 7.35893 18.1929C6.97019 18.5645 6.46921 18.8535 5.85872 19.0626C5.24823 19.2718 4.4461 19.3709 3.45235 19.3571H2.46407C2.27517 19.3571 2.11912 19.2993 1.99046 19.1865C1.86179 19.0709 1.79882 18.925 1.79882 18.7516V16.5443C1.79882 16.3681 1.86179 16.2222 1.99046 16.1094C2.11912 15.9938 2.27517 15.936 2.46407 15.936H3.02802C3.38938 15.936 3.69326 15.903 3.93417 15.8369C4.17508 15.7681 4.37493 15.6773 4.52823 15.5644C4.68154 15.4488 4.80747 15.314 4.90055 15.1598C4.99363 15.0057 5.08123 14.8268 5.16336 14.6231L5.30572 13.913L0.0631704 0.729363L0.044007 0.688078H0.0412694Z" fill="#CC1517"></path>
+          <path d="M14.4082 7.16708C14.4082 6.03312 14.5533 5.02301 14.8407 4.13952C15.1282 3.25602 15.5936 2.51289 16.2287 1.91288C16.8666 1.31287 17.6851 0.858738 18.6844 0.547724C19.6836 0.236711 20.9018 0.0825806 22.3391 0.0825806C23.7763 0.0825806 24.9782 0.236711 25.9856 0.547724C26.9931 0.858738 27.8143 1.31287 28.4522 1.91288C29.0901 2.51289 29.5527 3.25602 29.8402 4.13952C30.1304 5.02301 30.2727 6.03312 30.2727 7.16708C30.2727 8.30104 30.1276 9.32766 29.8402 10.2139C29.55 11.0974 29.0873 11.8405 28.4522 12.4433C27.8116 13.0433 26.9903 13.5002 25.9856 13.8085C24.9782 14.1195 23.7627 14.2763 22.3391 14.2763C20.9155 14.2763 19.6836 14.1195 18.6844 13.8085C17.6851 13.5002 16.8639 13.0433 16.2287 12.4433C15.5909 11.8433 15.1282 11.1002 14.8407 10.2139C14.5506 9.33041 14.4082 8.3148 14.4082 7.16708ZM26.0486 7.26616C26.0486 6.68542 25.9911 6.15697 25.8788 5.67807C25.7639 5.19916 25.5668 4.79182 25.2848 4.45328C25.0028 4.11475 24.6223 3.85327 24.1487 3.66336C23.6723 3.47345 23.0728 3.37987 22.3446 3.37987C21.6164 3.37987 21.0196 3.47345 20.5432 3.66336C20.0669 3.85327 19.6891 4.11475 19.4071 4.45328C19.1251 4.79182 18.9308 5.19916 18.8213 5.67807C18.7145 6.15697 18.6597 6.68542 18.6597 7.26616C18.6597 7.84691 18.7145 8.37811 18.8213 8.85701C18.928 9.33592 19.1224 9.74876 19.4071 10.0928C19.6891 10.4368 20.0669 10.7066 20.5432 10.902C21.0196 11.0974 21.6218 11.1965 22.3446 11.1965C23.0673 11.1965 23.6723 11.0974 24.1487 10.902C24.625 10.7066 25.0055 10.4368 25.2848 10.0928C25.5668 9.74876 25.7639 9.33592 25.8788 8.85701C25.9911 8.37811 26.0486 7.84691 26.0486 7.26616Z" fill="#CC1517"></path>
+          <path d="M44.4373 0.26424C44.566 0.385343 44.6289 0.528464 44.6289 0.690851V7.39278C44.6289 8.59555 44.5359 9.62767 44.347 10.4919C44.1581 11.3561 43.8186 12.0607 43.3286 12.6084C42.8385 13.1562 42.1651 13.558 41.3055 13.814C40.4458 14.0727 39.3535 14.1993 38.023 14.1993C36.6926 14.1993 35.5975 14.0727 34.7297 13.814C33.8619 13.558 33.1829 13.1562 32.6847 12.6084C32.1892 12.0635 31.8415 11.3616 31.6471 10.5057C31.4527 9.64694 31.3569 8.61756 31.3569 7.41755V0.688099C31.3569 0.525712 31.4199 0.38259 31.5486 0.261488C31.6745 0.140385 31.8333 0.079834 32.0222 0.079834H34.56C34.7488 0.079834 34.9076 0.140385 35.0445 0.261488C35.1787 0.38259 35.2471 0.525712 35.2471 0.688099V3.13767C35.2471 3.13767 35.2389 3.1652 35.2279 3.17896V7.49186C35.2279 7.97627 35.2444 8.42765 35.2772 8.83775C35.3101 9.2506 35.4196 9.60015 35.6002 9.88914C35.7809 10.1809 36.0629 10.4066 36.4462 10.569C36.8294 10.7314 37.3605 10.8112 38.0477 10.8112C38.7348 10.8112 39.2604 10.7314 39.6382 10.569C40.0133 10.4066 40.2925 10.1781 40.4732 9.88088C40.6539 9.58363 40.7607 9.23133 40.7963 8.81848C40.8291 8.40839 40.8455 7.95976 40.8455 7.47259V0.688099C40.8455 0.525712 40.9085 0.38259 41.0372 0.261488C41.1631 0.140385 41.3219 0.079834 41.5108 0.079834H43.9692C44.1553 0.079834 44.3141 0.140385 44.4428 0.261488" fill="#CC1517"></path>
+          <path d="M70.0008 0.21195C70.0939 0.34131 70.1075 0.484431 70.0418 0.646819L65.5713 13.4837C65.4645 13.7672 65.3167 13.9543 65.1305 14.0397C64.9417 14.1277 64.7747 14.1718 64.6268 14.1718H61.829C61.6538 14.1718 61.4621 14.1277 61.2541 14.0397C61.046 13.9516 60.89 13.7672 60.7805 13.4837L57.8211 5.77166L55.0205 13.4837C54.9137 13.7672 54.7686 13.9543 54.588 14.0397C54.4073 14.1277 54.2348 14.1718 54.0733 14.1718H51.2946C51.1194 14.1718 50.9278 14.1277 50.7197 14.0397C50.5116 13.9516 50.3529 13.7672 50.2461 13.4837L45.4744 0.688104H45.4963L45.4744 0.646819C45.406 0.484431 45.4197 0.34131 45.5155 0.21195C45.6086 0.0825907 45.7509 0.0192871 45.9398 0.0192871H48.839C49.0251 0.0192871 49.2085 0.0798384 49.381 0.200941C49.5562 0.322044 49.6767 0.465165 49.7424 0.627552L50.6896 3.11566C50.7033 3.14318 50.7088 3.17621 50.7088 3.2175L52.6607 9.11024L55.6611 0.627552C55.7268 0.465165 55.8473 0.322044 56.0225 0.200941C56.1977 0.0798384 56.3784 0.0192871 56.5673 0.0192871H59.1844C59.3706 0.0192871 59.5513 0.0798384 59.7183 0.200941C59.8853 0.322044 60.003 0.465165 60.0714 0.627552L61.0378 3.11566C61.0378 3.14318 61.0405 3.1597 61.0488 3.16795C61.0542 3.17346 61.0597 3.19272 61.0597 3.2175L63.195 9.11024L66.0148 0.627552C66.0805 0.465165 66.1982 0.322044 66.368 0.200941C66.5349 0.0798384 66.7129 0.0192871 66.9018 0.0192871H69.5819C69.7681 0.0192871 69.9104 0.0825907 70.0035 0.21195" fill="#fff"></path>
+          <path d="M75.4817 13.6268C75.4817 13.7892 75.4188 13.9295 75.2901 14.0506C75.1642 14.1745 75.0054 14.235 74.8192 14.235H71.9776C71.7887 14.235 71.6272 14.1745 71.4957 14.0506C71.3616 13.9295 71.2959 13.7892 71.2959 13.6268V0.668806C71.2959 0.506419 71.3616 0.36605 71.4957 0.244947C71.6299 0.123845 71.7914 0.0632935 71.9776 0.0632935H74.8192C75.0054 0.0632935 75.1642 0.123845 75.2901 0.244947C75.4188 0.36605 75.4817 0.509171 75.4817 0.668806V13.6268Z" fill="#fff"></path>
+          <path d="M85.381 0C86.4268 0 87.2727 0.137617 87.9188 0.415602C88.5649 0.693587 89.0631 1.08442 89.419 1.59085C89.7749 2.09728 90.0158 2.70829 90.1418 3.4239C90.2704 4.13951 90.3334 4.92942 90.3334 5.79366V13.6708C90.3334 13.8332 90.2704 13.9736 90.1418 14.0947C90.0158 14.2158 89.857 14.2763 89.6709 14.2763H87.1933C87.0044 14.2763 86.8484 14.2158 86.7197 14.0947C86.5911 13.9708 86.5281 13.8305 86.5281 13.6708V6.56431C86.5281 6.14596 86.5035 5.75512 86.4569 5.38906C86.4104 5.02576 86.3036 4.71474 86.1339 4.45878C85.9642 4.20281 85.715 3.99914 85.3783 3.85326C85.0416 3.70464 84.5844 3.63032 84.0095 3.63032C83.3388 3.63032 82.7995 3.70464 82.397 3.85326C81.9946 4.00189 81.6825 4.21382 81.4608 4.4918C81.239 4.76704 81.0912 5.09456 81.0173 5.47439C80.9434 5.85421 80.9078 6.27256 80.9078 6.72945V13.6736C80.9078 13.836 80.8448 13.9763 80.7161 14.0974C80.5875 14.2185 80.4314 14.2791 80.2425 14.2791H77.7458C77.5569 14.2791 77.4009 14.2185 77.2722 14.0974C77.1463 13.9736 77.0806 13.8332 77.0806 13.6736V0.547714C77.1079 0.399088 77.1846 0.275233 77.3133 0.173397C77.4392 0.0715606 77.5843 0.0220186 77.7458 0.0220186H80.2425C80.4314 0.0220186 80.5875 0.0798176 80.7161 0.195415C80.8448 0.311013 80.9078 0.454135 80.9078 0.630284V1.48075C81.083 1.27708 81.2418 1.08442 81.3896 0.902764C81.5374 0.721111 81.7564 0.564228 82.0439 0.437621C82.3341 0.308261 82.731 0.203672 83.243 0.123855C83.7522 0.0440373 84.4639 0.00275233 85.3783 0.00275233" fill="#fff"></path>
+        </svg>
+      </a>
+      <a data-dynamic="true" href="/tr/login" class="usericon">
+        <img src="./ProfileIcon.svg" alt="">
+      </a>
+    </div>
+  </div>
+</header>
+<!-- header end -->
+
+<!-- slider section start-->
+
+<section class="slider-sec">
+
+  <div class="banner-slider">
+    <!-- <div class="banner-first banner-slide">
+        <img src="./casino_backgrd.png" alt="" class="banner-image">
+        <img src="./img_zeus.png" alt="" class="carector">
+
+    </div> -->
+    <div class="banner-second banner-slide">
+      <a data-dynamic="true" href="/tr/register" class="banner-second banner-slide">
+        <img src="./casino-backgrd-optimised.webp" alt="" class="banner-image">
+        <img src="./Img-optimised_casino.webp" alt="" class="carector">
+      </a>
+    </div>
+  </div>
+
+
+  <a data-dynamic="true" href="/tr/register" class="banner-container">
+    <img src="./left_top_img-casino.webp" alt="" class="phone-pink">
+    <img src="./right_top_img-casino.webp" alt="" class="phone-blue">
+    <img src="./left_bottom_img-casino.webp" alt="" class="bell">
+    <img src="./right_bottom_img-casino.webp" alt="" class="heart-blue">
+  </a>
+
+  <div class="banner-slider-text slick-slider">
+    <!-- <div class="banner-first banner-slide">
+
+        <div class="price-ret-sliders">
+            <h1 class="price">₺15.000</h1>
+            <h4 class="price-text">%100 HOŞ GELDİN BONUSU / Hoş Geldin Bonusu</h4>
         </div>
-    </header>
-    <!-- header end -->
 
-    <!-- slider section start-->
+    </div> -->
+    <div class="banner-second banner-slide">
 
-    <section class="slider-sec">
+      <a data-dynamic="true" href="/tr/register" class="price-ret-sliders">
+        <h1 class="price">₺15.000</h1>
+        <h4 class="price-text">%100 HOŞ GELDİN BONUSU</h4>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- slider section end -->
 
-        <div class="banner-slider">
-            <!-- <div class="banner-first banner-slide">
-                <img src="./casino_backgrd.png" alt="" class="banner-image">
-                <img src="./img_zeus.png" alt="" class="carector">
+<!-- content section start-->
 
-            </div> -->
-            <div class="banner-second banner-slide">
-                <a href="https://in.htrk924.com/tr/register" class="banner-second banner-slide">
-                    <img src="./casino-backgrd-optimised.webp" alt="" class="banner-image">
-                    <img src="./Img-optimised_casino.webp" alt="" class="carector">
-                </a>
+<section class="content-sec">
+  <div class="content-main container">
+
+    <div class="wrapper-2">
+
+      <div class="mini-slider-sec">
+        <div class="mini-slider-box">
+
+          <div class="mini-slider">
+            <div class="border">
+              <div class="min-slider-content">
+                <h2 class="title">Ödemesiz Bonus</h2>
+                <p>Min ₺500 ilk ödemenle %100 spor ya da casino hoş geldin bonusuna ek ₺100 bedava bahis ve ₺100 casino bonusu kazan!</p>
+              </div>
+              <div class="mini-slider-img">
+                <img src="./Gift-with-cash.webp" alt="">
+              </div>
             </div>
-        </div>
-
-
-        <a href="https://in.htrk924.com/tr/register" class="banner-container">
-            <img src="./left_top_img-casino.webp" alt="" class="phone-pink">
-            <img src="./right_top_img-casino.webp" alt="" class="phone-blue">
-            <img src="./left_bottom_img-casino.webp" alt="" class="bell">
-            <img src="./right_bottom_img-casino.webp" alt="" class="heart-blue">
-        </a>
-
-        <div class="banner-slider-text slick-slider">
-            <!-- <div class="banner-first banner-slide">
-
-                <div class="price-ret-sliders">
-                    <h1 class="price">₺15.000</h1>
-                    <h4 class="price-text">%100 HOŞ GELDİN BONUSU / Hoş Geldin Bonusu</h4>
-                </div>
-
-            </div> -->
-            <div class="banner-second banner-slide">
-
-                <a href="https://in.htrk924.com/tr/register" class="price-ret-sliders">
-                    <h1 class="price">₺15.000</h1>
-                    <h4 class="price-text">%100 HOŞ GELDİN BONUSU</h4>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- slider section end -->
-
-    <!-- content section start-->
-
-    <section class="content-sec">
-        <div class="content-main container">
-
-            <div class="wrapper-2">
-
-                <div class="mini-slider-sec">
-                    <div class="mini-slider-box">
-
-                       <div class="mini-slider">
-                            <div class="border">
-                                <div class="min-slider-content">
-                                    <h2 class="title">Ödemesiz Bonus</h2>
-                                    <p>Min ₺500 ilk ödemenle %100 spor ya da casino hoş geldin bonusuna ek ₺100 bedava bahis ve ₺100 casino bonusu kazan!</p>
-                                </div>
-                                <div class="mini-slider-img">
-                                    <img src="./Gift-with-cash.webp" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="btn-all desktop sticky-stop">
-                    <a href="https://in.htrk924.com/tr/register" class="btn-bog"><span>Şimdi Katıl</span>Sadece 2 dk sürecek</a>
-                </div>
-
-                <div class="sub-heading-content">
-                    <h2>AKILLI TERCİHLERLE <br><span>BİR ADIM </span>ÖNDE BAŞLA</h2>
-                    <div class="mini-logo">
-                        <div class="minilogo-box">
-                            <img src="./papara-white.svg" alt="">
-                        </div>
-                        <div class="minilogo-box">
-                            <img src="./payfix-white.svg" alt="">
-                        </div>
-                        <div class="minilogo-box">
-                            <img src="./creditcards-white.svg" alt="">
-                        </div>
-                        <div class="minilogo-box">
-                            <img src="./eftbanktransfer-white.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="text-contnet1">
-                    <div class="main-text-box1">
-                        <H5>Bundesliga Reklam Sponsoru<img src="./bundesliga_logo.png"></H5>
-                    </div>
-                </div>
-                <div class="fixed-wrapper">
-                    <div class="btn-all mobile sticky-stop">
-                        <a href="https://in.htrk924.com/tr/register" class="btn-bog"><span>Şimdi Katıl</span>Sadece 2 dk sürecek</a>
-                        <div class="btn-multi">
-                            <span>1. Kayıt Ol</span>
-                            <span>2. Para Yatır</span>
-                            <span>3. Kazan</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          </div>
 
         </div>
-    </section>
+      </div>
 
-    <!-- content section end -->
+      <div class="btn-all desktop sticky-stop">
+        <a data-dynamic="true" href="/tr/register" class="btn-bog"><span>Şimdi Katıl</span>Sadece 2 dk sürecek</a>
+      </div>
 
-    <!-- bottom text sec start-->
-    <section class="text-contnet footer">
-        <div class="container">
-            <div class="main-text-box">
-                <p><b>Hepsibahis</b> bir Blue Pepper B.V markasıdır.</p>
-                <p> 146398 kayıt numarası ile © Blue Pepper B.V, Curaçao Ticaret ve Sanayi Odası'na kayıtlı bir
-                    firmadır. Firma, online oyun hizmetleri ve ürünleri sunmak maksadıyla 00925 nolu Kahnawake Gaming
-                    Comission lisansına sahiptir. Sorumlu bahisi destekliyoruz. Detaylı bilgi için <b>buraya</b>
-                    tıklayın.</p>
-
-                <img src="./kgc_logo.png" alt="" class="logotext-box">
-                <p class="copy-text">Copyright © 2024, <b>Hepsibahis</b>. Tüm hakları saklıdır. Hüküm & Koşullar |
-                    Gizlilik Politikası</p>
-                <p class="logowith-text"><img src="./play-responsible.png">Uyarı: Bahis risk içerir. Para
-                    kaybedebilirsiniz. Bahis bağımlılık yaratabilir. Lütfen sorumluca oynayın. Tüm üyeler asgari 18
-                    yaşında olmalıdır.</p>
-            </div>
+      <div class="sub-heading-content">
+        <h2>AKILLI TERCİHLERLE <br><span>BİR ADIM </span>ÖNDE BAŞLA</h2>
+        <div class="mini-logo">
+          <div class="minilogo-box">
+            <img src="./papara-white.svg" alt="">
+          </div>
+          <div class="minilogo-box">
+            <img src="./payfix-white.svg" alt="">
+          </div>
+          <div class="minilogo-box">
+            <img src="./creditcards-white.svg" alt="">
+          </div>
+          <div class="minilogo-box">
+            <img src="./eftbanktransfer-white.svg" alt="">
+          </div>
         </div>
-    </section>
-    <!-- bottom text sec end -->
+      </div>
+      <div class="text-contnet1">
+        <div class="main-text-box1">
+          <H5>Bundesliga Reklam Sponsoru<img src="./bundesliga_logo.png"></H5>
+        </div>
+      </div>
+      <div class="fixed-wrapper">
+        <div class="btn-all mobile sticky-stop">
+          <a data-dynamic="true" href="/tr/register" class="btn-bog"><span>Şimdi Katıl</span>Sadece 2 dk sürecek</a>
+          <div class="btn-multi">
+            <span>1. Kayıt Ol</span>
+            <span>2. Para Yatır</span>
+            <span>3. Kazan</span>
+          </div>
+        </div>
+      </div>
 
-    <!-- GA -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.defer = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-26966128-5', 'auto');
-        ga('require', 'GTM-T4HQLRB');
-        ga('send', 'pageview');
-    </script>
-    <!-- /GA -->
+    </div>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26966128-5" defer></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-26966128-5', { 'optimize_id': 'GTM-NSX5KH6' });
-    </script>
+  </div>
+</section>
 
-    <!--script-->
-    <script src="./slick.min.js" defer></script>
-    <script>
-        $(document).ready(function () {
-            $('.mini-slider-box').slick({ dots: false, arrows: false, slidesToShow: 1, slidesToScroll: 1, autoplay: false });
-            // $('.banner-slider').slick({ dots: true,  arrows: false, slidesToShow: 1, slidesToScroll: 1, fade: true,  cssEase: 'linear',  asNavFor: '.banner-slider-text', autoplay: true,  autoplaySpeed: 3500,  responsive: [ { breakpoint: 767, settings: { dots: true  } } ]});
-            // $('.banner-slider-text').slick({ dots: true,  arrows: false, slidesToShow: 1, slidesToScroll: 1, fade: true,  cssEase: 'linear',  asNavFor: '.banner-slider', autoplay: true,  autoplaySpeed: 3500,  responsive: [ { breakpoint: 767, settings: { dots: true  } } ]});
-        });
+<!-- content section end -->
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const btnAll = document.querySelector('.btn-all.mobile');
-            const miniLogo = document.querySelector('.text-contnet1'); // Get the target section
+<!-- bottom text sec start-->
+<section class="text-contnet footer">
+  <div class="container">
+    <div class="main-text-box">
+      <p><b>Hepsibahis</b> bir Blue Pepper B.V markasıdır.</p>
+      <p> 146398 kayıt numarası ile © Blue Pepper B.V, Curaçao Ticaret ve Sanayi Odası'na kayıtlı bir
+        firmadır. Firma, online oyun hizmetleri ve ürünleri sunmak maksadıyla 00925 nolu Kahnawake Gaming
+        Comission lisansına sahiptir. Sorumlu bahisi destekliyoruz. Detaylı bilgi için <b>buraya</b>
+        tıklayın.</p>
 
-            // const miniLogoPosition = boundry.top + boundry.height; 
-            const miniLogoPosition = miniLogo.offsetTop + miniLogo.offsetHeight;
+      <img src="./kgc_logo.png" alt="" class="logotext-box">
+      <p class="copy-text">Copyright © 2024, <b>Hepsibahis</b>. Tüm hakları saklıdır. Hüküm & Koşullar |
+        Gizlilik Politikası</p>
+      <p class="logowith-text"><img src="./play-responsible.png">Uyarı: Bahis risk içerir. Para
+        kaybedebilirsiniz. Bahis bağımlılık yaratabilir. Lütfen sorumluca oynayın. Tüm üyeler asgari 18
+        yaşında olmalıdır.</p>
+    </div>
+  </div>
+</section>
+<!-- bottom text sec end -->
 
-            let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+<!-- GA -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.defer = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-26966128-5', 'auto');
+  ga('require', 'GTM-T4HQLRB');
+  ga('send', 'pageview');
+</script>
+<!-- /GA -->
 
-            const handleCalcScroll = () => {
-                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                const scrollPosition = scrollTop + window.innerHeight;
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26966128-5" defer></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-26966128-5', { 'optimize_id': 'GTM-NSX5KH6' });
+</script>
 
-                if (scrollPosition >= 760 + 140) { // 140 fixed-wrapper height, 150 top minues
-                    if (scrollTop > lastScrollTop) {
-                        // Add a class to adjust position of the button
-                        btnAll.classList.add('sticky-stop');
-                    }
-                } else {
-                    // Remove the class if the section is not in view
-                    btnAll.classList.remove('sticky-stop');
-                }
+<!--script-->
+<script src="./slick.min.js" defer></script>
+<script>
+  $(document).ready(function () {
+    $('.mini-slider-box').slick({ dots: false, arrows: false, slidesToShow: 1, slidesToScroll: 1, autoplay: false });
+    // $('.banner-slider').slick({ dots: true,  arrows: false, slidesToShow: 1, slidesToScroll: 1, fade: true,  cssEase: 'linear',  asNavFor: '.banner-slider-text', autoplay: true,  autoplaySpeed: 3500,  responsive: [ { breakpoint: 767, settings: { dots: true  } } ]});
+    // $('.banner-slider-text').slick({ dots: true,  arrows: false, slidesToShow: 1, slidesToScroll: 1, fade: true,  cssEase: 'linear',  asNavFor: '.banner-slider', autoplay: true,  autoplaySpeed: 3500,  responsive: [ { breakpoint: 767, settings: { dots: true  } } ]});
+  });
 
-                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-            }
+  document.addEventListener('DOMContentLoaded', function () {
+    const btnAll = document.querySelector('.btn-all.mobile');
+    const miniLogo = document.querySelector('.text-contnet1'); // Get the target section
 
-            handleCalcScroll()
-            window.addEventListener('scroll', function () {
-                handleCalcScroll(handleCalcScroll)
-            });
+    // const miniLogoPosition = boundry.top + boundry.height;
+    const miniLogoPosition = miniLogo.offsetTop + miniLogo.offsetHeight;
 
-        });
-    </script>
+    let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    const handleCalcScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollPosition = scrollTop + window.innerHeight;
+
+      if (scrollPosition >= 760 + 140) { // 140 fixed-wrapper height, 150 top minues
+        if (scrollTop > lastScrollTop) {
+          // Add a class to adjust position of the button
+          btnAll.classList.add('sticky-stop');
+        }
+      } else {
+        // Remove the class if the section is not in view
+        btnAll.classList.remove('sticky-stop');
+      }
+
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }
+
+    handleCalcScroll()
+    window.addEventListener('scroll', function () {
+      handleCalcScroll(handleCalcScroll)
+    });
+
+  });
+</script>
 </body>
 
 </html>
