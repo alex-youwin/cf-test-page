@@ -54,14 +54,6 @@ function getSeparator(href){
 
 $(document).ready(function() {
 
-  fetch('/api')
-    .then(response => response.json())
-    .then(data => {
-      document.querySelectorAll('[data-dynamic="true"]').forEach(link => {
-        link.href = data.link + link.getAttribute('href');
-      });
-    });
-
     if (window.location.pathname === '/copy-of-casinowelcome-opt-bb-3764-tr/index.html') {
         var pname = getParameterByName('PNAME') ? getParameterByName('PNAME') : getParameterByName('pname');
         var affiliate = getParameterByName('AFFILIATE') ? getParameterByName('AFFILIATE') : getParameterByName('affiliate');
