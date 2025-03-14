@@ -47,7 +47,7 @@
       .then(response => response.json())
       .then(data => {
         document.querySelectorAll('[data-dynamic="true"]').forEach(link => {
-          link.href = data.domain + link.getAttribute('href');
+          link.href = data.link + link.getAttribute('href');
         });
       });
   </script>
